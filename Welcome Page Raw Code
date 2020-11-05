@@ -1,0 +1,170 @@
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class welpage
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(welpage))
+        Me.weltopic = New System.Windows.Forms.Label
+        Me.toplogic = New System.Windows.Forms.Label
+        Me.sanou = New System.Windows.Forms.Label
+        Me.gotomainbut = New System.Windows.Forms.Button
+        Me.wemade = New System.Windows.Forms.Button
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox
+        Me.early = New System.Windows.Forms.Label
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.SuspendLayout()
+        '
+        'weltopic
+        '
+        Me.weltopic.AutoSize = True
+        Me.weltopic.BackColor = System.Drawing.Color.Transparent
+        Me.weltopic.Font = New System.Drawing.Font("Angsana New", 72.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.weltopic.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.weltopic.Image = CType(resources.GetObject("weltopic.Image"), System.Drawing.Image)
+        Me.weltopic.Location = New System.Drawing.Point(494, 71)
+        Me.weltopic.Name = "weltopic"
+        Me.weltopic.Size = New System.Drawing.Size(504, 133)
+        Me.weltopic.TabIndex = 0
+        Me.weltopic.Text = "คณิตศาสตร์ เรื่อง"
+        Me.weltopic.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'toplogic
+        '
+        Me.toplogic.AutoSize = True
+        Me.toplogic.Font = New System.Drawing.Font("Angsana New", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.toplogic.Location = New System.Drawing.Point(619, 178)
+        Me.toplogic.Name = "toplogic"
+        Me.toplogic.Size = New System.Drawing.Size(247, 89)
+        Me.toplogic.TabIndex = 1
+        Me.toplogic.Text = "เซต ( SET )"
+        Me.toplogic.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'sanou
+        '
+        Me.sanou.AutoSize = True
+        Me.sanou.Font = New System.Drawing.Font("Angsana New", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.sanou.Location = New System.Drawing.Point(462, 327)
+        Me.sanou.Name = "sanou"
+        Me.sanou.Size = New System.Drawing.Size(551, 89)
+        Me.sanou.TabIndex = 2
+        Me.sanou.Text = "เสนอ ครูไพรัช วงศ์ศรีตระกูล "
+        Me.sanou.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'gotomainbut
+        '
+        Me.gotomainbut.Font = New System.Drawing.Font("Angsana New", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.gotomainbut.Location = New System.Drawing.Point(634, 507)
+        Me.gotomainbut.Name = "gotomainbut"
+        Me.gotomainbut.Size = New System.Drawing.Size(200, 48)
+        Me.gotomainbut.TabIndex = 3
+        Me.gotomainbut.Text = "เข้าสู่เนื้อหา"
+        Me.gotomainbut.UseVisualStyleBackColor = True
+        '
+        'wemade
+        '
+        Me.wemade.Font = New System.Drawing.Font("Angsana New", 11.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.wemade.Location = New System.Drawing.Point(687, 561)
+        Me.wemade.Name = "wemade"
+        Me.wemade.Size = New System.Drawing.Size(96, 29)
+        Me.wemade.TabIndex = 8
+        Me.wemade.Text = "ผู้จัดทำ"
+        Me.wemade.UseVisualStyleBackColor = True
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(966, 360)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(445, 392)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox1.TabIndex = 9
+        Me.PictureBox1.TabStop = False
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
+        Me.PictureBox2.Location = New System.Drawing.Point(93, -13)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(520, 348)
+        Me.PictureBox2.TabIndex = 10
+        Me.PictureBox2.TabStop = False
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
+        Me.PictureBox3.Location = New System.Drawing.Point(384, 611)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(399, 286)
+        Me.PictureBox3.TabIndex = 11
+        Me.PictureBox3.TabStop = False
+        '
+        'early
+        '
+        Me.early.AutoSize = True
+        Me.early.Font = New System.Drawing.Font("Angsana New", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.early.Location = New System.Drawing.Point(1334, 9)
+        Me.early.Name = "early"
+        Me.early.Size = New System.Drawing.Size(172, 22)
+        Me.early.TabIndex = 12
+        Me.early.Text = "BETA 1.2 (5/11/2563) - Early Access"
+        '
+        'welpage
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(1518, 783)
+        Me.Controls.Add(Me.early)
+        Me.Controls.Add(Me.PictureBox3)
+        Me.Controls.Add(Me.wemade)
+        Me.Controls.Add(Me.gotomainbut)
+        Me.Controls.Add(Me.sanou)
+        Me.Controls.Add(Me.toplogic)
+        Me.Controls.Add(Me.weltopic)
+        Me.Controls.Add(Me.PictureBox2)
+        Me.Controls.Add(Me.PictureBox1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MaximumSize = New System.Drawing.Size(1920, 1080)
+        Me.MinimumSize = New System.Drawing.Size(1534, 822)
+        Me.Name = "welpage"
+        Me.Text = "โปรแกรมคณิตศาสตร์ เรื่องเซต (SET)"
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+    Friend WithEvents weltopic As System.Windows.Forms.Label
+    Friend WithEvents toplogic As System.Windows.Forms.Label
+    Friend WithEvents sanou As System.Windows.Forms.Label
+    Friend WithEvents gotomainbut As System.Windows.Forms.Button
+    Friend WithEvents wemade As System.Windows.Forms.Button
+    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox3 As System.Windows.Forms.PictureBox
+    Friend WithEvents early As System.Windows.Forms.Label
+
+End Class
